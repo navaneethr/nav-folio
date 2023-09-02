@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { context } from "../context/context";
 import SectionContainer from "./SectionContainer";
+import Experience from "./about/Experience";
 
 const services = [
   {
@@ -43,12 +44,33 @@ const Service = () => {
         <div className="tm_content">
           <div className="elisc_tm_service_title">
             <div className="elisc_tm_title">
-              <span>- Services</span>
-              <h3>My Services</h3>
+              <h3>My Work</h3>
             </div>
-            <a href="mailto:support@Navneeth.com">support@Navneeth.com</a>
+            <a href="mailto:rnavaneethkishore@gmail.com">rnavaneethkishore@gmail.com</a>
           </div>
           <div className="service_list">
+            <div className="elisc_tm_counter">
+              <ul>
+                <li>
+                  <div className="list_inner">
+                    <h3>6+</h3>
+                    <span>Years of Experience</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <h3>6</h3>
+                    <span>Industries</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <h3>3</h3>
+                    <span>Studenets Mentored</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
             <ul>
               {services.map((service) => (
                 <li key={service.id}>

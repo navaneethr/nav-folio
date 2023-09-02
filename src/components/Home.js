@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { context } from "../context/context";
 import SectionContainer from "./SectionContainer";
 const homeData = {
-  skills: ["Web Engineer", "Artist", "Cricketer"],
+  skills: ["Web Engineer", "Artist", "Cricketer", "Husband", "Dog Father"],
 };
 const Home = () => {
   const [text, setText] = useState(0);
@@ -43,7 +43,7 @@ const Home = () => {
               </div>
               <div className="subtitle">
                 <p>
-                  I'm a San Francisco Bay Area based Frontend Engineer with <span className="blueColor"> 6+ years</span> of
+                  I'm a San Francisco Bay Area based Web & Frontend Engineer with <span className="blueColor"> 6+ years</span> of
                   experience
                 </p>
               </div>

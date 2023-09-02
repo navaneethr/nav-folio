@@ -35,12 +35,7 @@ const experiences = [
 const Experience = () => {
   const { modalToggle, setexperienceModal } = useContext(context);
   return (
-    <div className="elisc_tm_experience">
-      <div className="tm_content">
-        <div className="elisc_tm_title">
-          <span>- Experience</span>
-          <h3>Everything about me!</h3>
-        </div>
+    <div className="tm_content">
         <div className="list">
           <ul>
             {experiences.map((experience) => (
@@ -82,7 +77,6 @@ const Experience = () => {
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 export default Experience;

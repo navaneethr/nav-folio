@@ -749,6 +749,18 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   margin-bottom: 150px;
 }
+
+.elisc_tm_abt .buttons {
+  float: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.elisc_tm_abt .elisc_tm_button {
+  padding-right: 15px;
+}
+
 .elisc_tm_home .elisc_tm_button {
   width: auto;
 }
@@ -890,7 +902,6 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_counter {
   width: 100%;
   float: left;
-  margin-bottom: 90px;
 }
 .elisc_tm_counter ul {
   margin: 0px 0px 0px -30px;
@@ -934,12 +945,15 @@ body::-webkit-scrollbar-thumb {
 }
 .elisc_tm_counter ul li:nth-child(1) .list_inner {
   background-color: #d3f4ec;
+  border: none;
 }
 .elisc_tm_counter ul li:nth-child(2) .list_inner {
   background-color: #fce8d4;
+  border: none;
 }
 .elisc_tm_counter ul li:nth-child(3) .list_inner {
   background-color: #e3f9e0;
+  border: none;
 }
 .elisc_tm_counter h3 {
   font-size: 40px;
@@ -1861,7 +1875,7 @@ body::-webkit-scrollbar-thumb {
   right: 0px;
   height: 100vh;
   z-index: 20;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
   opacity: 0;
   visibility: hidden;
 
@@ -2674,6 +2688,11 @@ body::-webkit-scrollbar-thumb {
   .elisc_tm_home .buttons {
     margin-bottom: 60px;
   }
+
+  .elisc_tm_abt .buttons {
+    margin-bottom: 60px;
+  }
+
   .elisc_tm_home .subtitle {
     margin-bottom: 30px;
   }
@@ -2856,6 +2875,9 @@ body::-webkit-scrollbar-thumb {
     line-height: 63px;
   }
   .elisc_tm_home .buttons {
+    margin-bottom: 75px;
+  }
+  .elisc_tm_abt .buttons {
     margin-bottom: 75px;
   }
   .elisc_tm_biography {
