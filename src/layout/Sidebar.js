@@ -20,7 +20,7 @@ const Sidebar = () => {
               <img src="img/logo/logo.png" alt="image" />
             </a>
             <a className="text" href="#">
-              <span>R.Navaneeth</span>
+              <span>R.Navneeth</span>
             </a>
           </div>
           <div className="trigger">
@@ -119,14 +119,13 @@ const Sidebar = () => {
       <div className="elisc_tm_sidebar">
         <div className="sidebar_inner">
           <div className="author">
-            <div className="image">
-              <img src="img/thumbs/1-1.jpg" alt="image" />
-              <div className="main" data-img-url="img/about/1.jpg" />
-            </div>
             <div className="name">
               <h3>
                 <span>
-                  Navaneeth Rameshwaram<span className="back">Navaneeth Rameshwaram</span>
+                  <div className="image">
+                    <img src="img/thumbs/1-1.jpg" alt="image" />
+                    <div className="main" data-img-url="img/about/1.jpg" />
+                </div>
                 </span>
               </h3>
             </div>
@@ -149,17 +148,27 @@ const Sidebar = () => {
             <div className="social">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/laetwo/">
                     <i className="icon-facebook-1" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="icon-twitter-1" />
+                  <a href="https://www.instagram.com/navneethkishore/">
+                    <i className="icon-instagram-1" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://github.com/navaneethr">
+                    <i className="icon-github-1" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@rnavaneethkishore">
+                    <i className="icon-medium" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/navaneethkr/">
                     <i className="icon-linkedin-1" />
                   </a>
                 </li>
@@ -167,8 +176,7 @@ const Sidebar = () => {
             </div>
             <div className="text">
               <p>
-                Copyright © {new Date().getFullYear()} Navaneeth Rameshwaram. All rights
-                reserved.
+                Copyright © {new Date().getFullYear()} Navneeth Rameshwaram
               </p>
             </div>
           </div>

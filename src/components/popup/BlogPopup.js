@@ -26,7 +26,7 @@ const BlogPopup = () => {
         </div>
         <div className="text">
           <p>
-            Navaneeth is a leading web design agency with an award-winning design
+            Navneeth is a leading web design agency with an award-winning design
             team that creates innovative, effective websites that capture your
             brand, improve your conversion rates, and maximize your revenue to
             help grow your business and achieve your goals.

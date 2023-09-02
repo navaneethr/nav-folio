@@ -525,7 +525,7 @@ body::-webkit-scrollbar-thumb {
 }
 .elisc_tm_sidebar .author .image {
   position: relative;
-  width: 118px;
+  width: 218px;
   display: inline-block;
 }
 .elisc_tm_sidebar .author .image img {
@@ -2639,10 +2639,10 @@ body::-webkit-scrollbar-thumb {
     padding-left: 300px;
   }
   .elisc_tm_sidebar .author {
-    padding-top: 30px;
+    padding-top: 100px;
   }
   .elisc_tm_sidebar .author .image {
-    width: 77px;
+    width: 150px;
   }
   .elisc_tm_sidebar .name .back {
     font-size: 18px;

@@ -74,11 +74,12 @@ const state = (props) => {
     blogModal: null,
     menus: [
       { id: 1, name: "Home", href: "home" },
-      { id: 2, name: "About", href: "about" },
-      { id: 3, name: "Services", href: "service" },
+      { id: 2, name: "About Me", href: "about" },
+      { id: 3, name: "Work", href: "service" },
       { id: 4, name: "Portfolio", href: "portfolio" },
-      { id: 5, name: "Blog", href: "blogs" },
-      { id: 6, name: "Contact", href: "contact" },
+      { id: 5, name: "Artistry", href: "portfolio" },
+      { id: 6, name: "Blog", href: "blogs" },
+      { id: 7, name: "Contact", href: "contact" },
     ],
   };
   const [state, dispatch] = useReducer(reducer, initialState);

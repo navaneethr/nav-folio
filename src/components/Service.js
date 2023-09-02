@@ -46,7 +46,7 @@ const Service = () => {
               <span>- Services</span>
               <h3>My Services</h3>
             </div>
-            <a href="mailto:support@navaneeth.com">support@navaneeth.com</a>
+            <a href="mailto:support@Navneeth.com">support@Navneeth.com</a>
           </div>
           <div className="service_list">
             <ul>

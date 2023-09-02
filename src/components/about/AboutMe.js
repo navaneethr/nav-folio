@@ -12,7 +12,7 @@ const AboutMe = () => {
             <div className="left">
               <div className="title">
                 <span className="mini">- Nice to meet you!</span>
-                <h3 className="name">Navaneeth Rameshwaram</h3>
+                <h3 className="name">Navneeth Rameshwaram</h3>
                 <span className="job">
                   <span className="cd-headline rotate-1">
                     {" "}
@@ -36,7 +36,7 @@ const AboutMe = () => {
               <div className="text">
                 <p>
                   Hello there! My name is{" "}
-                  <span className="yellowColor">Navaneeth Rameshwaram</span>. I am a web
+                  <span className="yellowColor">Navneeth Rameshwaram</span>. I am a web
                   designer &amp; developer, and I'm very passionate and
                   dedicated to my work.
                 </p>
@@ -64,7 +64,7 @@ const AboutMe = () => {
                   <li>
                     <span>Mail</span>
                     <span>
-                      <a href="mailto:support@navaneeth.com">support@navaneeth.com</a>
+                      <a href="mailto:support@Navneeth.com">support@Navneeth.com</a>
                     </span>
                   </li>
                   <li>

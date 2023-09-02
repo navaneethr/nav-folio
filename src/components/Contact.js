@@ -64,7 +64,7 @@ const Contact = () => {
                     <a href="tel:+77 022 444 05 05">+77 022 444 05 05</a>
                   </li>
                   <li>
-                    <a href="mailto:support@navaneeth.com">support@navaneeth.com</a>
+                    <a href="mailto:support@Navneeth.com">support@Navneeth.com</a>
                   </li>
                   <li>
                     <a className="href_location" href="#">
