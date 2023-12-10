@@ -39,24 +39,24 @@ const AboutMe = () => {
             <div className="right">
               <div className="text">
                 <p>
-                  Hello there! My name is{" "}
-                  <span className="yellowColor">Navneeth Rameshwaram</span>. I am a web
-                  engineer.
+                  In the beautiful tapestry of my life, I am Navaneeth—a husband, dog dad, frontend engineer, cricketer, food enthusiast, and, above all, a family man. As a husband, my journey is woven with shared dreams and the everyday joys of companionship. Together, we navigate life's twists and turns, finding strength in the bond we've built.
                 </p>
                 <p>
-                  I believe I'm a spatial learner.<br/> 
-                  I have to give the due credit to my eyes for allowing me to 
-                  see the beauty of this world, if not for them, I'd never be able to comprehend the intricacies of day to day life and understand what goes behind in making 
-                  this place a better one to cherish.
+                  In the realm of parenthood, I extend my love to a furry family member, embracing the title of a dedicated dog dad. Our home resonates with the pitter-patter of paws, and each wag of the tail adds a layer of warmth to our shared experiences.
+                </p>
+
+                <p>
+                  By day, I don the hat of a frontend engineer, translating ideas into digital realities. The lines of code are my brushstrokes, and the user interfaces I create are a testament to the fusion of technology and creativity.
+                </p>
+
+                <p>
+                  On the cricket field, I am an allrounder, fueled by the thrill of competition and the camaraderie with teammates. The sound of leather meeting willow is a language I speak with passion, expressing my love for the game.
                 </p>
                 <p>
-                  I was born on 2nd October of 1992 in the beautiful Old City of Hyderabad, India. I was the oldest of the 3 kids, Mom and Dad worked for the government in decent positions, 
-                  we were taught to work hard to succeed until I realized not all lessons they taught were 100% correct. Life has taught me that I needed to work smart 
-                  to succed in life and the hustle begins.
+                  Beyond the screens and cricket pitches, I am a fervent food lover, exploring the world through flavors. From culinary adventures to the comfort of home-cooked meals, each dish is a journey, and every taste is a cherished memory.
                 </p>
                 <p>
-                  I chose to learn some of these lessons, some I never did and some I unlearnt. I think everyone reaches a point wherein they decide what's right and wrong and so, I have my own "Rules & Principles" book now.
-                  Guess I'm going too deep - "That's what she said", I'll stop it right there, talk with me to know more.
+                  Yet, amidst these varied roles, my heart finds its anchor in family. Balancing work, sports, and culinary pursuits, the laughter and love shared at the family table are the threads that bind my diverse roles into a harmonious and fulfilling life.
                 </p>
                 <p>
                   Here are a few things I love in no order
@@ -65,7 +65,7 @@ const AboutMe = () => {
                   <li className="yellowColor">Cricket</li>
                   <li className="yellowColor">Anything Chicken</li>
                   <li className="yellowColor">Rap Music</li>
-                  <li className="yellowColor">Photography & Videography</li>
+                  <li className="yellowColor">Photography</li>
                 </ul>
               </div>
             </div>

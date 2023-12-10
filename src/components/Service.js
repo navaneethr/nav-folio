@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { context } from "../context/context";
 import SectionContainer from "./SectionContainer";
-import Experience from "./about/Experience";
 
 const services = [
   {
@@ -11,27 +10,32 @@ const services = [
   },
   {
     id: 2,
-    name: "Content Writing",
+    name: "Web Development",
     image: "/img/service/2.jpg",
   },
   {
     id: 3,
-    name: "Brand Identity",
+    name: "Component Architecture",
     image: "/img/service/3.jpg",
   },
   {
     id: 4,
-    name: "Live Chat",
+    name: "Project Management",
     image: "/img/service/4.jpg",
   },
   {
     id: 5,
-    name: "After Effects",
+    name: "Leadership",
     image: "/img/service/1.jpg",
   },
   {
     id: 6,
-    name: "Mobile App",
+    name: "Mentorship",
+    image: "/img/service/2.jpg",
+  },
+  {
+    id: 7,
+    name: "Continuous Learning",
     image: "/img/service/2.jpg",
   },
 ];
@@ -54,24 +58,29 @@ const Service = () => {
                 <li>
                   <div className="list_inner">
                     <h3>6+</h3>
-                    <span>Years of Experience</span>
+                    <span>Years of Web Experience</span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <h3>6</h3>
-                    <span>Industries</span>
+                    <h3>∞</h3>
+                    <span>Lines of Code</span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
                     <h3>3</h3>
-                    <span>Studenets Mentored</span>
+                    <span>Students Mentored</span>
                   </div>
                 </li>
               </ul>
             </div>
-            <ul>
+            <div className="elisc_tm_service_title mb-10">
+              <div className="elisc_tm_title">
+                <h3>My Skills</h3>
+              </div>
+            </div>
+            <ul className="skill-list">
               {services.map((service) => (
                 <li key={service.id}>
                   <img
@@ -82,7 +91,6 @@ const Service = () => {
                   <div className="list_inner">
                     <div className="details">
                       <div className="title">
-                        <span>0{service.id}</span>
                         <h3>{service.name}</h3>
                       </div>
                       <div className="text">
@@ -117,21 +125,6 @@ const Service = () => {
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="elisc_tm_video">
-            <img className="placeholder" src="img/thumbs/4-2.jpg" alt="image" />
-            <div className="image" data-img-url="img/service/1.jpg" />
-            <div className="overlay" />
-            <span className="play">
-              <img className="svg" src="img/svg/play.svg" alt="image" />
-            </span>
-            <div className="text">
-              <h3>Intro Video</h3>
-            </div>
-            <a
-              className="elisc_tm_full_link popup-youtube"
-              href="https://www.youtube.com/watch?v=7e90gBu4pas"
-            />
           </div>
         </div>
       </div>

@@ -25,9 +25,8 @@ const Sidebar = () => {
           </div>
           <div className="trigger">
             <div
-              className={`hamburger hamburger--slider ${
-                toggle ? "is-active" : ""
-              }`}
+              className={`hamburger hamburger--slider ${toggle ? "is-active" : ""
+                }`}
             >
               <div className="hamburger-box" onClick={() => setToggle(!toggle)}>
                 <div className="hamburger-inner" />
@@ -62,48 +61,28 @@ const Sidebar = () => {
             <div className="social">
               <ul>
                 <li>
-                  <a href="#">
-                    <img
-                      className="svg"
-                      src="img/svg/social/facebook.svg"
-                      alt="image"
-                    />
-                  </a>
-                </li>{" "}
-                <li>
-                  <a href="#">
-                    <img
-                      className="svg"
-                      src="img/svg/social/twitter.svg"
-                      alt="image"
-                    />
-                  </a>
-                </li>{" "}
-                <li>
-                  <a href="#">
-                    <img
-                      className="svg"
-                      src="img/svg/social/instagram.svg"
-                      alt="image"
-                    />
-                  </a>
-                </li>{" "}
-                <li>
-                  <a href="#">
-                    <img
-                      className="svg"
-                      src="img/svg/social/dribbble.svg"
-                      alt="image"
-                    />
+                  <a href="https://www.facebook.com/laetwo/">
+                    <i className="icon-facebook-1" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <img
-                      className="svg"
-                      src="img/svg/social/tik-tok.svg"
-                      alt="image"
-                    />
+                  <a href="https://www.instagram.com/navneethkishore/">
+                    <i className="icon-instagram-1" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/navaneethr">
+                    <i className="icon-github-1" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@rnavaneethkishore">
+                    <i className="icon-medium" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/navaneethkr/">
+                    <i className="icon-linkedin-1" />
                   </a>
                 </li>
               </ul>
@@ -125,7 +104,7 @@ const Sidebar = () => {
                   <div className="image">
                     <img src="img/thumbs/1-1.jpg" alt="image" />
                     <div className="main" data-img-url="img/about/1.jpg" />
-                </div>
+                  </div>
                 </span>
               </h3>
             </div>
