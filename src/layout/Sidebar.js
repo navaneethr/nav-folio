@@ -17,7 +17,7 @@ const Sidebar = () => {
             {" "}
             {/* You can use text or image as logo. data-type values are: "image" and "text"  */}
             <a className="image" href="#">
-              <img src="img/logo/logo.png" alt="image" />
+              <img src="img/logo/myPic.jpg" alt="image" />
             </a>
             <a className="text" href="#">
               <span>R.Navneeth</span>
@@ -102,8 +102,8 @@ const Sidebar = () => {
               <h3>
                 <span>
                   <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="image" />
-                    <div className="main" data-img-url="img/about/1.jpg" />
+                    <img src="img/logo/myPic.jpg" alt="image" />
+                    <div className="main" data-img-url="img/logo/myPic.jpg" />
                   </div>
                 </span>
               </h3>

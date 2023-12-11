@@ -1,15 +1,10 @@
 import { context } from "@/src/context/context";
-import useClickOutside from "@/src/useClickOutside";
 import { useContext } from "react";
 const ModalContainer = ({ children, nullValue }) => {
   const { modalToggle } = useContext(context);
-  let domNode = useClickOutside(() => {
-    modalToggle(false);
-    nullValue(null);
-  });
   return (
     <div className="elisc_tm_modalbox opened">
-      <div className="box_inner" ref={domNode}>
+      <div className="box_inner">
         <div className="close">
           <a
             href="#"

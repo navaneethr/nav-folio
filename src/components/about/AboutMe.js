@@ -21,8 +21,8 @@ const AboutMe = () => {
               <div className="elisc_tm_abt">
                 <div className="buttons">
                   <div className="elisc_tm_button transition_link">
-                    <a href="#portfolio" onClick={() => navChange("portfolio")}>
-                      Projects
+                    <a href="#service" onClick={() => navChange("service")}>
+                      My Work?
                     </a>
                   </div>
                   <div

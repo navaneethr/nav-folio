@@ -25,10 +25,10 @@ const IndexOnePage = () => {
       <Service />
       {/* /SERVICES */}
       {/* PORTFOLIO */}
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* /PORTFOLIO */}
       {/* NEWS */}
-      <Blogs />
+      {/* <Blogs /> */}
       {/* /NEWS */}
       {/* CONTACT */}
       <Contact />

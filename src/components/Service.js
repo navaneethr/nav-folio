@@ -1,42 +1,57 @@
 import { useContext } from "react";
 import { context } from "../context/context";
 import SectionContainer from "./SectionContainer";
+import webDev from "../writings/webDev";
+import componentArchitecture from "../writings/componentArchitecture";
+import continuousLearning from "../writings/continuousLearning";
+import leadership from "../writings/leadership";
+import mentorship from "../writings/mentorship";
+import projectManagement from "../writings/projectManagement";
+import webDesign from "../writings/webDesign";
+
 
 const services = [
   {
     id: 1,
-    name: "Web Design",
-    image: "/img/service/1.jpg",
+    name: "Web Development",
+    image: "/img/service/2.jpg",
+    text: webDev
   },
   {
     id: 2,
-    name: "Web Development",
-    image: "/img/service/2.jpg",
+    name: "Web Design",
+    image: "/img/service/1.jpg",
+    text: webDesign
   },
   {
     id: 3,
     name: "Component Architecture",
     image: "/img/service/3.jpg",
+    text: componentArchitecture
   },
   {
     id: 4,
     name: "Project Management",
     image: "/img/service/4.jpg",
+    text: projectManagement
   },
   {
     id: 5,
     name: "Leadership",
     image: "/img/service/1.jpg",
+    text: leadership
   },
   {
     id: 6,
     name: "Mentorship",
     image: "/img/service/2.jpg",
+    text: mentorship
   },
   {
     id: 7,
     name: "Continuous Learning",
     image: "/img/service/2.jpg",
+    text: continuousLearning
   },
 ];
 
@@ -94,10 +109,7 @@ const Service = () => {
                         <h3>{service.name}</h3>
                       </div>
                       <div className="text">
-                        <p>
-                          Web development is the process of building,
-                          programming...
-                        </p>
+                        <p></p>
                       </div>
                       <div className="elisc_tm_read_more">
                         <a href="#">

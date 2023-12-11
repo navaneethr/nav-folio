@@ -49,8 +49,8 @@ const Home = () => {
               </div>
               <div className="buttons">
                 <div className="elisc_tm_button transition_link">
-                  <a href="#portfolio" onClick={() => navChange("portfolio")}>
-                    Projects
+                  <a href="#service" onClick={() => navChange("service")}>
+                    My Work?
                   </a>
                 </div>
                 <div
@@ -72,15 +72,15 @@ const Home = () => {
                   </li>
                   <li>
                     <a className="href_location" href="#">
-                      Pleasanton, California
+                      San Francisco Bay Area, California
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="right">
-              <img src="img/about/2.png" alt="image" />
-            </div>
+            {/* <div className="right">
+              <img src="img/about/me.jpg" alt="image" />
+            </div> */}
           </div>
         </div>
       </div>
